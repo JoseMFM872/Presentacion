@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobremi</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
@@ -18,31 +19,42 @@
        SOBRE MÍ
     </h1>
    <HR>
-    <h2>
+       <style>
+         h2 {text-align: center;}
+       </style>
+      <h2>
        José María Fornieles Moreno
     </h2>
   </header> 
   
   <main>
-     <section>
-        <p>
-            Guadix (Granada) Español
-        </p>
-        <img src="bandera España.png" alt="Bandera de españa, con dos franjas horizontales rojas en extremos y una gualda doble ancha en el centro">
-     </section>
+     <section class="section-banderas">
+        <div class="contenedor">
+           <p>Nacido en Guadix</p>
+           <img class="banderas" src="Bandera de Guadix.jpg" alt="Bandera de Guadix dos franjas anchas, una blanca y otra morada">                   
+         </div>
+         <div class="contenedor">
+           <p>Provincia de Granada</p>
+           <img class="banderas" src="Bandera de Granada.png" alt="Bandera de Granada, dos franjas anchas verticales, una roja y otra verde">
+         </div>
+         <div class="contenedor">
+            <p>España</p>
+            <img class="banderas" src="Bandera de España 2.jpg" alt="Bandera de España dos franjas horizontales rojas en los extremos y una amarilla doble ancho en el centro">                  
+         </div>
+      </section>
   
      <section>
          <p>
-            Doctor por la Universidad de Granada en Historia y Artes
+            Historiador por la Universidad de Granada
          </p>
-        <img src="Sede UGR.jpg" alt="Hospital real, sede de la Universidad de Granada">
+        <img id="sedeugr" src="Sede UGR.jpg" alt="Hospital real, sede de la Universidad de Granada">
      </section>
   
      <section>
         <p>
             Recorrido: En Guadix realicé mis primeros estudios. Los estudios universitarios los hice en Granada, ciudad en la que también hice el servicio militar
         </p>
-        <img src="Cuartel de Cervantes en Granada.jpg" alt="Entrada principal al cuartel de Cervantes">
+        <img id="cervantes" src="Cuartel de Cervantes en Granada.jpg" alt="Entrada principal al cuartel de Cervantes">
      </section>
   
 
@@ -51,8 +63,6 @@
     </main>
 
   <footer>
-
+    @ José María Fornieles
   </footer>
-
-</body>
 </html>

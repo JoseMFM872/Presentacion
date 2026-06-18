@@ -1,0 +1,25 @@
+.banderas{
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+
+}
+.section-banderas{
+    font-size:large;
+    border: 2px solid black;
+    display: flex;
+}
+.lugares{
+    display:flex;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#sedeugr{
+    width: 300px;    
+}
+#cervantes{
+    width: 300px;
+}
