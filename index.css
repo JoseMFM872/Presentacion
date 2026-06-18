@@ -15,6 +15,10 @@ header {
     color: green;
 
 }
+#imagenpropia{
+    align-items: center;
+    width: 80px;
+}
 .banderas{
     width: 50px;
     height: 25px;
