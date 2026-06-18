@@ -15,7 +15,7 @@ header {
     color: green;
     image-aling: center
 }
-.foto{
+#foto{
     display: block;
     margin-right: auto;
     max-width: 50px;
@@ -36,13 +36,23 @@ header {
     justify-content: center;
     gap: 50px;
 }
+
+#centrosescolaresguadix{
+    width: 300px;
+}
+
 #sedeugr{
     width: 300px;    
 }
 
 #escudoletras{
-     width: 150px;
+     width: 145px;
 }
 #cervantes{
     width: 300px;
+}
+footer{
+   background-color: black;
+   color: green;
+   text-align: center;
 }
